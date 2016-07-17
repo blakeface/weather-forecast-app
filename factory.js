@@ -27,7 +27,19 @@
         })
 
         return deferred.promise;
-      }
+      },
+
+      renameWeather: function (description) {
+        if (description === 'Thunderstorm') return 'Thunderstorms';
+        if (description === 'Drizzle') return 'Light Showers';
+        if (description === 'Rain') return 'Rainy';
+        if (description === 'Snow') return 'Snowy';
+        if (description === 'Atmosphere') return 'Smoggy';
+        if (description === 'Clear') return 'Sunny Skys';
+        if (description === 'Clouds') return 'Cloudy';
+        if (description === 'Extreme') return 'Extreme Weather!';
+        if (description === 'Additional') return 'Windy';
+      },
     }
   }
 

@@ -4,13 +4,24 @@
     <meta charset="utf-8">
     <title>Weather Forecaster</title>
 
+    <!-- stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Changa' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/style.css" media="screen" title="no title" charset="utf-8">
+
+    <!-- angularjs -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js" charset="utf-8"></script>
-    <script src="module.js" charset="utf-8"></script>
-    <script src="factory.js" charset="utf-8"></script>
-    <script src="controller.js" charset="utf-8"></script>
+    <script src="/module.js" charset="utf-8"></script>
+    <script src="/factory.js" charset="utf-8"></script>
+    <script src="/controller.js" charset="utf-8"></script>
 
   </head>
-  <body ng-controller="MainCtrl as vm">
-
+  <body ng-controller="MainCtrl as vm" ng-cloak>
+    <h1>Weather Forecaster</h1>
+    <div class="weather-box" ng-repeat="day in vm.forecasts">
+      <h3>{{day.descriptionString}}</h3>
+      <h3>Average Temperature: {{day.avgTemp | number:2}}&deg;F</h3>
+      <h3>Daily Low: {{day.minTemp | number:2}}&deg;F</h3>
+      <h3>Daily High: {{day.maxTemp | number:2}}&deg;F</h3>
+    </div>
   </body>
 </html>
