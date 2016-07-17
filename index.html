@@ -17,11 +17,15 @@
   </head>
   <body ng-controller="MainCtrl as vm" ng-cloak>
     <h1>Weather Forecaster</h1>
-    <div class="weather-box" ng-repeat="day in vm.forecasts">
-      <h3>{{day.descriptionString}}</h3>
-      <h3>Average Temperature: {{day.avgTemp | number:2}}&deg;F</h3>
-      <h3>Daily Low: {{day.minTemp | number:2}}&deg;F</h3>
-      <h3>Daily High: {{day.maxTemp | number:2}}&deg;F</h3>
+    <div ng-repeat="day in vm.forecasts">
+      <div class="weather-box" ng-class="vm.setBackground(day)">
+        <h3>{{day.date | date : format : fullDate}}</h3>
+        <h3>{{day.descriptionString}}</h3>
+        <h3>Average Temperature: {{day.avgTemp | number:2}}&deg;F</h3>
+        <h3>Daily Low: {{day.minTemp | number:2}}&deg;F</h3>
+        <h3>Daily High: {{day.maxTemp | number:2}}&deg;F</h3>
+      </div>
+      <div class="transparent"></div>
     </div>
   </body>
 </html>

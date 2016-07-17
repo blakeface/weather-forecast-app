@@ -23,6 +23,7 @@
           deferred.resolve(success)
         })
         .catch(function (err) {
+          $log.warn(err)
           deferred.reject(err)
         })
 
@@ -40,6 +41,7 @@
         if (description === 'Extreme') return 'Extreme Weather!';
         if (description === 'Additional') return 'Windy';
       },
+
     }
   }
 

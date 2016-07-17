@@ -4,3 +4,65 @@ body {
   align-items: center;
   font-family: Changa;
 }
+
+.weather-box {
+  border: 10px solid black;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.extreme {
+  background-image: url('https://pixabay.com/get/e134b50e2df51c22d2524518a33219c8b66ae3d11fb9164992f1c27e/b3d-814151_1280.jpg');
+  background-size: cover;
+}
+
+.thunderstorm {
+  background-image: url('https://pixabay.com/get/ea31b30c2cf51c22d9584518a33219c8b66ae3d11fb9164991f9c17f/lightning-342341_1920.jpg');
+  background-size: cover;
+}
+
+.rainy {
+  background-image: url('https://pixabay.com/get/e134b40d2ff51c22d9584518a33219c8b66ae3d11fb9164992f1c671/water-815271_1920.jpg');
+  background-size: cover;
+}
+
+.snowy {
+  background-image: url('https://pixabay.com/get/eb33b10729f31c22d9584518a33219c8b66ae3d11fb9164992f2c579/winter-260817_1920.jpg');
+  background-size: cover;
+}
+
+.drizzle {
+  background-image: url('https://pixabay.com/get/e135b30f2bf71c22d9584518a33219c8b66ae3d11fb9164992f2c970/mountains-802033_1920.jpg');
+  background-size: cover;
+}
+
+.cloudy {
+  background-image: url('https://pixabay.com/get/ed37b70d2ff51c22d2524518a33219c8b66ae3d11fb9164992f0c57d/storm-clouds-426271_1280.jpg');
+  background-size: cover;
+}
+
+.smoggy {
+  background-image: url('https://pixabay.com/get/e034b90728f71c22d9584518a33219c8b66ae3d11fb9164992f3c27e/cityscape-918803_1920.jpg');
+  background-size: cover;
+}
+
+.windy {
+  background-image: url('https://pixabay.com/get/e03db6062bf71c22d9584518a33219c8b66ae3d11fb9164992f3c87e/air-bag-987933_1920.jpg');
+  background-size: cover;
+}
+
+.sunny {
+  background-image: url('https://pixabay.com/get/e834b0082af3083ed1534705fb0938c9bd22ffd41db719469df5c17ba5/cloud-1117279_1920.jpg');
+  background-size: cover;
+}
+
+.transparent {
+  background: rgba(255, 255, 255, 0.5);
+  border: 10px solid black;
+  width: 520px;
+  height: 320px;
+  margin-bottom: 30px;
+  margin-top: -370px;
+}
