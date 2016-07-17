@@ -6,11 +6,16 @@ This app was built with Angular within a strict 4-hour timeframe.
 Deployed with Firebase at:  
 https://weather-forecaster-87672.firebaseapp.com/
 
-###To deploy:  
-   $ npm install -g firebase-tools  
-   $ firebase login  
-   $ firebase init  
-   $ firebase deploy  
+###To initialize the app:  
+    $ npm install -g firebase-tools  
+    $ firebase login  
+    $ firebase init  
+
+### To view locally:  
+    $ firebase serve  
+
+### To deploy:  
+    $ firebase deploy  
 
 For further assistance, visit https://firebase.google.com/docs/hosting/
 
