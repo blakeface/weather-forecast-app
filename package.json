@@ -4,7 +4,7 @@
   "description": "This app was built with Angular within a strict 4-hour timeframe.",
   "scripts": {
     "start": "node ./server/bin/www",
-    "test": "mocha"
+    "test": "karma start my.conf.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,12 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
-    "mocha": "^2.5.3",
+    "jasmine": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-requirejs": "^1.0.0",
+    "mocha": "^2.5.3"
   },
   "dependencies": {
     "body-parser": "~1.15.1",

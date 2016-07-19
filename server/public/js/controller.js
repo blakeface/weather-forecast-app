@@ -14,6 +14,7 @@
 
     WeatherFactory.getWeatherData().then(function (results) {
 
+      console.log(results);
       let counter = 1;
       let descriptionCounter = 0;
       let day = 0;
@@ -79,4 +80,5 @@
       }
     }
   }
+
 })();
