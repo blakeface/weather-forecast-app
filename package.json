@@ -2,7 +2,6 @@
   "name": "weather-forecast-app",
   "version": "1.0.0",
   "description": "This app was built with Angular within a strict 4-hour timeframe.",
-  "main": "controller.js",
   "scripts": {
     "start": "node ./server/bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"

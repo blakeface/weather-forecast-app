@@ -12,7 +12,7 @@
     return {
       getWeatherData: function () {
         const weatherAPI = '//api.openweathermap.org/data/2.5/forecast' +
-          '?q=Bouler,CO' +
+          '?q=Bouler,US' +
           '&units=imperial' +
           '&APPID=6e1fc93970e4f39c34301ff3e1a16977';
 
