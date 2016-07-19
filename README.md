@@ -4,22 +4,9 @@ This app was built with Angular within a strict 4-hour timeframe.
 Please visit the "submitted" branch to view the submitted draft.  
 The following is refactored to included a testing suite, a package manager, and a build manager.  
 
-##Hosting:  
-Deployed with Firebase at:  
-https://weather-forecaster-87672.firebaseapp.com/
-
 ###To initialize the app:  
-    $ npm install -g firebase-tools  
-    $ firebase login  
-    $ firebase init  
-
-### To view locally:  
-    $ firebase serve  
-
-### To deploy:  
-    $ firebase deploy  
-
-For further assistance, visit https://firebase.google.com/docs/hosting/
+    $ npm install
+    $ nodemon  
 
 ##Roadblocks
 1. Firebase disabled all non-https endpoints, which means I'm unable to make a client-side API request to the OpenWeatherMap API.  
