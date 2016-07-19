@@ -1,6 +1,8 @@
 # weather-forecast-app
 
-This app was built with Angular within a strict 4-hour timeframe.
+This app was built with Angular within a strict 4-hour timeframe.  
+Please visit the "submitted" branch to view the submitted draft.  
+The following is refactored to included a testing suite, a package manager, and a build manager.  
 
 ##Hosting:  
 Deployed with Firebase at:  
