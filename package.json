@@ -1,0 +1,24 @@
+{
+  "name": "weather-forecast-app",
+  "version": "1.0.0",
+  "description": "This app was built with Angular within a strict 4-hour timeframe.",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakeface/weather-forecast-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakeface/weather-forecast-app/issues"
+  },
+  "homepage": "https://github.com/blakeface/weather-forecast-app#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}

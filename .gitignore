@@ -1,3 +1,4 @@
 .firebaserc
 database.rules.json
 firebase.json
+node_modules
