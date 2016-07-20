@@ -2,18 +2,17 @@
 
 This app was built with Angular within a strict 4-hour timeframe.  
 Please visit the "submitted" branch to view the submitted draft.  
-The following is refactored to included a testing suite, a package manager, and a build manager.  
+The following is refactored to included a testing suite and a package manager.
 
 ###To initialize the app:  
     $ npm install
     $ nodemon  
 
 ##Roadblocks
-1. Firebase disabled all non-https endpoints, which means I'm unable to make a client-side API request to the OpenWeatherMap API.  
-  - The solution is to either switch hosting providers or make the API call server-side - since this is a front-end app, there currently isn't a server.
-  - As of now, the site isn't being hosted... :(
-2. NgClass
+1. NgClass
   - Each box should have a dynamically set background dependent on the "Weather Description." For unknown reasons, the class isn't being set.
+2. Testing suite
+  - Used Karma to test Angular controller and factory. Need to increase scope of tests.
 
 ##Future Features
 1. A simple / detailed switch
