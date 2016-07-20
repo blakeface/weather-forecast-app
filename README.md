@@ -4,9 +4,13 @@ This app was built with Angular within a strict 4-hour timeframe.
 Please visit the "submitted" branch to view the submitted draft.  
 The following is refactored to included a testing suite and a package manager.
 
-###To initialize the app:  
+###To run app locally:  
     $ npm install
     $ nodemon  
+
+
+###To run tests:  
+    $ npm test  
 
 ##Roadblocks
 1. NgClass
